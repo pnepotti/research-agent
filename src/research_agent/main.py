@@ -1,4 +1,3 @@
-from email.mime import message
 import urllib.error
 import urllib.request
 
@@ -45,7 +44,6 @@ model = init_chat_model(
     temperature=0.2,
     timeout=300,
     max_output_tokens=1024,
-    verbose=True,
 )
 
 
